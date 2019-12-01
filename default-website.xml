@@ -1,0 +1,10 @@
+<!--  XML  -->
+
+<!--  IIS / path = Default Web Site -->
+
+<location path="http://www.webserver.com.br">
+   <system.webServer>
+      <serverSideInclude ssiExecDisable="true" />
+   </system.webServer>
+</location>
+
